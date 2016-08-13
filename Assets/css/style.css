@@ -1,0 +1,460 @@
+body {
+	width: 100%;
+	color: #777;
+	height: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+}
+
+p, h6 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 a, h6 a {
+	color: #fff;
+}
+
+ul a {
+	color: #777;
+}
+
+
+.header {
+	width: 100%;
+	height: 75px;
+	position: relative;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	padding: 20px;
+	float: left;
+	color: #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+	font-size: 25px;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	position: absolute;
+	right: 80px;
+	top: 40%;
+}
+
+li {
+	display: inline;
+	margin-right: 40px;
+}
+
+li a:hover {
+	color: white;
+	background-color: #4aaaa5;
+	padding: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: -20px;
+	position: relative;
+}
+
+.theMiddle {
+	background-image: url("../../Assets/images/cork-wallet.png");
+	width: 83.5%;
+	float: left;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.aboutMe {
+	background-color: #fff;
+	float: left;
+	position: relative;
+	width: 70%;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+	padding: 20px;
+}
+
+.small-divider-line {
+	background-color: #e1e1e1;
+	height: 10px;
+	width: 2px;
+}
+
+.divider-line {
+	background-color: #e1e1e1;
+	height: 2px;
+	width: 100%;
+	margin: 20px;
+	position: relative;
+	left: -20px;
+}
+
+#profilePic {
+	float: left;
+	margin: 20px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+#aboutMePara {
+	/*text-align: inherit;*/
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	line-height: 30px;
+}
+
+.theConnection {
+	background-color: #fff;
+	padding: 20px;
+	float: right;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+}
+
+.logos {
+	margin-top: 20px;
+}
+
+#githubLogo {
+	float: left;
+	margin-right: 10px;
+}
+
+#linkedinLogo {
+	float: 50%;
+}
+
+#stackoverflowLogo {
+	float: right;
+	margin-left: 10px;
+}
+
+.footer {
+	background-color: #666;
+	float: left;
+	width: 100%;
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	border-style: solid;
+	border-color: #4aaaa5;
+	border-width: 7px;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	position: relative;
+}
+
+h6 {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	font-size: 10px;
+}
+
+
+.image img{
+	width: 340px;
+	float: left;
+}
+
+.image {
+	float: left;
+	position: relative;
+	/*width:100%;*/
+	margin-bottom: 20px;
+}
+
+#image-1, #image-3, #image-5 {
+	margin-right: 20px;
+}
+
+
+h4 {
+	color: #fff;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	position: absolute;
+	top: 70%;
+	left: 0; 
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+input {
+	width: 99%;
+	margin-bottom: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+	border-radius: 3px;
+	height: 30px;
+	border-width: 1px;
+	border-color: #ccc;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+textarea {
+	width: 99.5%;
+	height: 200px;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 3px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+input[type=submit]{
+	width: 20%;
+	height: 45px;
+	background-color: #4aaaa5;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+/*.form-name {
+	margin-bottom: 0;
+}
+*/
+
+
+
+@media only screen and (max-width: 980px) {
+	
+	.theMiddle {
+		background-image: url("../../Assets/images/cork-wallet.png");
+		width: 79%;
+	}
+
+	.aboutMe {
+		width: 50%;
+	}
+
+	#profilePic {
+		width: 100%;
+	}
+
+	#aboutMePara {
+		float: left;
+	}
+
+	.portfolioPics{
+		width: 100%;
+		float: left;
+	}
+
+	input[type=submit] {
+		width: 40%;
+		padding: 5px;
+	}
+
+	.footer {
+		width: 100%;
+	}
+}/*End 980px*/
+
+@media only screen and (max-width: 768px) {
+
+	body {
+		width: 100%;
+	}
+
+	.theMiddle {
+		background-image: url("../../Assets/images/cork-wallet.png");
+		width: 74%;
+	}
+
+	h1 {
+		left: 80px;
+	}
+
+	.aboutMe {
+		float: left;
+		width: 100%;
+		margin-left: -20px;
+	}
+
+	.theConnection {
+		float: left;
+		width: 100%;
+		margin-left: -20px;
+		margin-top: 50px;
+	}
+
+	#profilePic {
+		width: 35%;	
+		float: left;
+		margin: 20px;
+		margin-top: 0;
+		margin-left: 0;
+	}	
+
+	#aboutMePara {
+	/*text-align: inherit;*/
+		float: left;
+		margin-right: 0;
+		margin-left: 0;
+		margin-top: 0;
+		line-height: 30px;
+	}
+
+	.image img{
+		width: 250px;
+		float: left;
+	}
+
+	.image {
+		float: left;
+		position: relative;
+		/*width:100%;*/
+		margin-bottom: 20px;
+	}
+
+	#image-1, #image-3, #image-5 {
+		margin-right: 65px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+	
+	#stackoverflowLogo {
+		float: none;
+	} 
+	
+	.footer {
+		width: 100%;
+	}
+
+	h6 {
+		left: 40%;
+	}
+
+}/*End 768px*/
+
+@media only screen and (max-width: 640px) {
+
+	h1 {
+		width: 93.5%;
+		margin: 0;
+		float: left;
+		left: 0;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	ul {
+		background-color: #fff;
+		float: none;
+		width: 91.5%;
+		margin: 0;
+		margin-left: 20px;
+		margin-top: 45px;
+		margin-bottom: 30px;
+		padding: 30px;
+		left: -30px;
+		text-align: center;
+	}
+
+	li {
+		margin: 0;
+		text-align: center;
+	}
+
+	#center-li {
+		margin-left: 110px;
+		margin-right: 110px;
+	}
+
+	.theMiddle {
+		background-image: url("../../Assets/images/cork-wallet.png");
+		width: 65%;
+	}
+
+	.aboutMe {
+		width: 100%;
+		margin: 0;
+		margin-left: -20px;
+		margin-top: 80px;
+	}
+
+	#profilePic {
+		width: 100%;
+	}
+
+	#aboutMePara {
+		float: left;
+	}
+
+	.theConnection{
+		width: 100%;
+		margin: 0;
+		margin-left: -20px;
+		margin-top: 50px;
+	}
+
+	.portfolioPics{
+		width: 100%;
+		float: left;
+	}
+
+	input[type=submit] {
+		width: 40%;
+		padding: 5px;
+	}
+
+	.footer {
+		width: 100%;
+		text-align: center;
+	}
+
+	h6 {
+		left: 40%;
+	}
+
+}/*End 640px*/
